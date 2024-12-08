@@ -16,10 +16,29 @@ The IO board includes the following updates:
 - Button boards are connected using **40mm FPC cables**.
 
 Visit the branch for more details and updates.
+
+# About This Project
+
+In this branch's shared link:  
+- The **button PCB** is connected via a **12-pin FPC cable**.  
+- **Technical limitations** prevent the PCB source file from linking to the schematic.  
+
+## Future Updates
+Potential updates may include:  
+- **Wider button caps**.  
+- **Enclosures** compatible with split mainboards.  
+- **Assembly tips** for easier setup.  
+- Additional **improvements and enhancements**.
+
+Stay tuned for more exciting developments!
+
+
 ---
 ---
 ---
 ---
+---
+
 # 触摸板与功能键板
 
 **触摸板**和**四个功能键板**可以在 **[JOZA-ORANGE 的 GitHub 分支](https://github.com/JOZA-ORANGE/mai_pico)** 中找到。
@@ -38,3 +57,19 @@ IO 板进行了以下修改：
 - 按键板之间的连接使用**40mm 的 FPC 排线**。
 
 更多细节与更新内容，请访问该分支。
+
+
+# 关于该项目
+
+在该分支的分享链接中：  
+- **按键 PCB** 使用 **12 针 FPC 排线**连接。  
+- 由于**技术限制**，PCB 源文件无法与原理图建立连接。  
+
+## 未来更新
+可能的更新内容包括：  
+- **更宽的按键帽**。  
+- 适配**分体主板**的**外壳**。  
+- 方便安装的**组装建议**。  
+- 其他**改进与优化**。
+
+敬请期待更多精彩更新！
