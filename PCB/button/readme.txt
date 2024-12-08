@@ -1,0 +1,3 @@
+这个kicad源文件非常不标准，是在原whowe的button基础上硬改的
+这个button和分体io板用反向14p 0.5mmfpc排线连接
+每两个button之间用同向14p fpc排线连接，长度40mm以上
