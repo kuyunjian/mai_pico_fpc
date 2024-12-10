@@ -1,43 +1,4 @@
-# Touch Panel and Function Key Boards
-
-The **touch panel** and **four function key boards** can be found in **[JOZA-ORANGE's GitHub branch](https://github.com/JOZA-ORANGE/mai_pico)**.
-
-## IO Board Modifications
-The IO board includes the following updates:  
-- Added **pin silkscreen** corresponding to the Raspberry Pi Pico.  
-  - Only solder pads **with markers** on one side.  
-  - Solder **all pads** on the other side.  
-- Changed the **card reader pad** to an **XH2.54 connector**.  
-- Updated the connection to the button PCB to a **12-pin 0.5mm pitch FPC connector**.  
-
-### Connection Details
-- The FPC cable between the IO board and the button PCB is **reversed**.  
-- All other FPC connections are **same-direction**.  
-- Button boards are connected using **40mm FPC cables**.
-
-Visit the branch for more details and updates.
-
-# About This Project
-
-In this branch's shared link:  
-- The **button PCB** is connected via a **12-pin FPC cable**.  
-- **Technical limitations** prevent the PCB source file from linking to the schematic.  
-
-## Future Updates
-Potential updates may include:  
-- **Wider button caps**.  
-- **Enclosures** compatible with split mainboards.  
-- **Assembly tips** for easier setup.  
-- Additional **improvements and enhancements**.
-
-Stay tuned for more exciting developments!
-
-
----
----
----
----
----
+英文版请翻到页面底部
 
 # 触摸板与功能键板
 
@@ -73,6 +34,47 @@ IO 板进行了以下修改：
 - 其他**改进与优化**。
 
 敬请期待更多精彩更新！
+部分材料：
 ![image](https://github.com/user-attachments/assets/51ffc68b-1499-4806-9823-89205f32c6e7)
+
+---
+---
+---
+---
+---
+# Touch Panel and Function Key Boards
+
+The **touch panel** and **four function key boards** can be found in **[JOZA-ORANGE's GitHub branch](https://github.com/JOZA-ORANGE/mai_pico)**.
+
+## IO Board Modifications
+The IO board includes the following updates:  
+- Added **pin silkscreen** corresponding to the Raspberry Pi Pico.  
+  - Only solder pads **with markers** on one side.  
+  - Solder **all pads** on the other side.  
+- Changed the **card reader pad** to an **XH2.54 connector**.  
+- Updated the connection to the button PCB to a **12-pin 0.5mm pitch FPC connector**.  
+
+### Connection Details
+- The FPC cable between the IO board and the button PCB is **reversed**.  
+- All other FPC connections are **same-direction**.  
+- Button boards are connected using **40mm FPC cables**.
+
+Visit the branch for more details and updates.
+
+# About This Project
+
+In this branch's shared link:  
+- The **button PCB** is connected via a **12-pin FPC cable**.  
+- **Technical limitations** prevent the PCB source file from linking to the schematic.  
+
+## Future Updates
+Potential updates may include:  
+- **Wider button caps**.  
+- **Enclosures** compatible with split mainboards.  
+- **Assembly tips** for easier setup.  
+- Additional **improvements and enhancements**.
+
+Stay tuned for more exciting developments!
+
 
 
