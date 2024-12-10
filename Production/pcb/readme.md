@@ -73,5 +73,6 @@ IO 板进行了以下修改：
 - 其他**改进与优化**。
 
 敬请期待更多精彩更新！
-![98c05c78e15f6afb80a6e450b617c0da](https://github.com/user-attachments/assets/48f80e5d-47ec-4192-8b37-2229e9740344)
+![image](https://github.com/user-attachments/assets/51ffc68b-1499-4806-9823-89205f32c6e7)
+
 
