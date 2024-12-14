@@ -27,25 +27,22 @@
 间距见图
 IO板有两个4.1mm的螺丝孔，四个2mm的螺丝孔
 
-
 ![114e6dcc4adc110a4fa8c1913fc8a64f](https://github.com/user-attachments/assets/6a7bf7bb-9047-48ae-b75d-6054797783c1)
-
 
   - 暂时没有固定方案，建议使用热熔胶将其固定在读卡器对面。
 
-
 触摸板有两个4.1mm的螺丝孔，封装宽度小于6mm，可以塞入欧标1515铝型材槽（6.1mm）
-
 
 ![1106f70be81e1cfedbcbcf390fe71943](https://github.com/user-attachments/assets/1d45b4bc-596a-4d05-8e58-ef0a6a4bd156)
 
-
-
-
 四个按键板有两个4.1mm的螺丝孔，受限于fpc座，无法将其放入槽内
 
-
 ![409c412c33483108aa20477443c17d64](https://github.com/user-attachments/assets/a3019153-5ed0-4ddb-961b-7de1a7873df8)
+
+按键板展示
+
+![image](https://github.com/user-attachments/assets/516e0fd7-96c2-4611-89fd-5537afec7769)
+
 
 
 
