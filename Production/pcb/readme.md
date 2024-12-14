@@ -33,7 +33,7 @@ IO板有两个4.1mm的螺丝孔，四个2mm的螺丝孔
 
 触摸板有两个4.1mm的螺丝孔，封装宽度小于6mm，可以塞入欧标1515铝型材槽（6.1mm）
 
-![1106f70be81e1cfedbcbcf390fe71943](https://github.com/user-attachments/assets/1d45b4bc-596a-4d05-8e58-ef0a6a4bd156)
+![image](https://github.com/user-attachments/assets/cff2464b-36fc-49d4-a9ba-9459b982fc04)
 
 四个按键板有两个4.1mm的螺丝孔，受限于fpc座，无法将其放入槽内
 
