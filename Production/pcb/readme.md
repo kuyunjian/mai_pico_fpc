@@ -38,10 +38,14 @@ IO板有两个4.1mm的螺丝孔，四个2mm的螺丝孔
 
 
 ![1106f70be81e1cfedbcbcf390fe71943](https://github.com/user-attachments/assets/1d45b4bc-596a-4d05-8e58-ef0a6a4bd156)
+
+
 按键板有两个4.1mm的螺丝孔
 
 
 ![409c412c33483108aa20477443c17d64](https://github.com/user-attachments/assets/cbe519b1-1e14-4a90-b68b-fc692d2c5778)
+
+
 四个按键板有两个4.1mm的螺丝孔，受限于fpc座，无法将其放入槽内
 
 
