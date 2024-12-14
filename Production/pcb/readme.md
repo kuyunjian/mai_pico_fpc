@@ -1,16 +1,16 @@
-- **Gerber_IO_Board_v3.1_2024-12-08.zip**（IO板）：使用嘉立创EDA制作，可以通过EDA券进行打样。
+- **Gerber_IO_Board_v3.1_2024-12-14.zip**（IO板）：使用嘉立创EDA制作，可以通过EDA券进行打样。
+- **Gerber_Button_Board_2024-12-14.zip**（四个功能键板）：使用嘉立创EDA制作，可以通过EDA券进行打样。
+- **Gerber_IO_Touch_Board_v3.0_5_2024-12-14.zip**（触摸板）：使用嘉立创EDA制作，可以通过EDA券进行打样。
 - **fpc-button.zip**（按键板）：使用KiCad制作，在嘉立创下单助手中仅能用通用券进行打样。
 
 ---
-分体板共四个pcb文件，本分支只有以上两件**触摸板**和**四个功能键板**可以在 [JOZA-ORANGE 的 GitHub 分支](https://github.com/JOZA-ORANGE/mai_pico) 中找到。
+分体板共四个pcb文件，均在 [JOZA-ORANGE](https://github.com/JOZA-ORANGE/mai_pico) 的基础上改进而来
 
 ## 更新说明：IO板
-
-### IO板主要修改内容：
-- **引脚丝印**：增加了树莓派Pico对应的引脚丝印。  
+-增加了树莓派Pico对应的引脚丝印。  
   - 一侧仅焊接带标点的焊盘。  
   - 另一侧需要全部焊接。
-  
+
 - **读卡器焊盘**：更改为XH2.54接口。
 
 - **按键PCB连接**：更改为12针0.5mm间距的FPC接口。
@@ -18,15 +18,25 @@
 ### 连接方式：
 - IO板与按键PCB之间通过**反向连接**的FPC排线连接。
 - 其他FPC排线连接均为**同向**连接。
-- 按键板之间使用**40mm的FPC排线**进行连接。
+- 按键板之间使用**40mm**的FPC排线进行连接。
 
 ---
 
 
-## IO板设计细节：
-
-- **螺丝孔**：IO板有两个3.1mm的螺丝孔，适配3mm子母柳钉，四个2mm的螺丝孔。  
+## 螺丝孔
+间距见图
+IO板有两个4.1mm的螺丝孔，四个2mm的螺丝孔
+![114e6dcc4adc110a4fa8c1913fc8a64f](https://github.com/user-attachments/assets/6a7bf7bb-9047-48ae-b75d-6054797783c1)
   - 暂时没有固定方案，建议使用热熔胶将其固定在读卡器对面。
+触摸板有两个4.1mm的螺丝孔，封装宽度小于6mm，可以塞入欧标1515铝型材槽（6.1mm）
+![1106f70be81e1cfedbcbcf390fe71943](https://github.com/user-attachments/assets/1d45b4bc-596a-4d05-8e58-ef0a6a4bd156)
+按键板有两个4.1mm的螺丝孔
+![409c412c33483108aa20477443c17d64](https://github.com/user-attachments/assets/cbe519b1-1e14-4a90-b68b-fc692d2c5778)
+四个按键板有两个4.1mm的螺丝孔，受限于fpc座，无法将其放入槽内
+![409c412c33483108aa20477443c17d64](https://github.com/user-attachments/assets/a3019153-5ed0-4ddb-961b-7de1a7873df8)
+
+
+
 
 ---
 
