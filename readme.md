@@ -62,10 +62,14 @@ IO板有两个4.1mm的螺丝孔，四个2mm的螺丝孔
 - 适配**分体主板**的**外壳**设计。
 - 提供**组装建议**，方便安装。
 - 其他**改进与优化**。
+
 敬请期待更多精彩更新！
+
+
 部分材料：
-注意：图中均为下接翻盖，无下接抽屉！！！
-![image](https://github.com/user-attachments/assets/51ffc68b-1499-4806-9823-89205f32c6e7)
+注意：
+![image](https://github.com/user-attachments/assets/f9b46f30-7d6a-469e-85a8-549d63314aa9)
+
 
 ---
 ---
