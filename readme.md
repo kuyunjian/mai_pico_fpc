@@ -1,5 +1,8 @@
 ![本branch的更改](https://github.com/user-attachments/assets/69f36717-a962-4df2-b20e-c53f4f2c931d)
 
+# 开源外壳的背板和对应的说明readme
+![开源外壳的背板和对应的说明readme](https://github.com/user-attachments/assets/419677d8-a52f-43cf-9a15-7aad16657c88)
+
 - **Gerber_IO_Board_v3.1_2024-12-14.zip**（IO板）：使用嘉立创EDA制作，可以通过EDA券进行打样。
 - **Gerber_Button_Board_2024-12-14.zip**（四个功能键板）：使用嘉立创EDA制作，可以通过EDA券进行打样。
 - **Gerber_IO_Touch_Board_v3.0_5_2024-12-14.zip**（触摸板）：使用嘉立创EDA制作，可以通过EDA券进行打样。
