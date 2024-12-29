@@ -1,22 +1,75 @@
 ![本branch的更改](https://github.com/user-attachments/assets/69f36717-a962-4df2-b20e-c53f4f2c931d)
+.
+.
+.
+.
+.
 
 # 1. 开源外壳适配的背板部分
+.
+.
+.
+.
+.
+
 ![开源外壳的背板和对应的说明readme](https://github.com/user-attachments/assets/419677d8-a52f-43cf-9a15-7aad16657c88)
+.
+.
+.
+.
+.
+.
 ## 这两个文件参考价格40-50元
 
 ## 安装指南如图
+.
+.
+.
+.
+.
+.
 
 ![安装指南,t型螺母在匹配的方向可以直接盖到铝型材里](https://github.com/user-attachments/assets/222aea6f-6556-4bf4-a74c-c4bea4735390)
+.
+.
+.
+.
+.
+.
 
 ## t型螺母在匹配的方向可以直接盖到铝型材里
 ## 螺丝用m4L16 L17 L18都可以
 
 ## 还可以买M4L11或者L12或者L13的沉头螺丝（或者非沉头螺丝两个）安装侧边提手，有预留孔位
+.
+.
+.
+.
+.
+.
 ![侧边提手参考孔位图](https://github.com/user-attachments/assets/8a794a1c-98ce-4670-80c9-602e81fc67ff)
 ![侧边提手预留孔位](https://github.com/user-attachments/assets/0ebb8665-386c-42c1-9da3-2d551d7b966a)
+.
+.
+.
+.
+.
+.
 
 ## 还可以买夹板螺母装背带挂钩，整个背板是13mm的，配套夹板螺母买外径5内4L12的八个，螺丝m4l4到m4l10之间八个，背带自己买适配的
+.
+.
+.
+.
+.
+.
 ![挂钩参考孔位图](https://github.com/user-attachments/assets/8a058405-f922-4250-98b8-a3df538dfc9b)
+.
+.
+.
+.
+.
+.
 
 # 2. pcb部分
 - **Gerber_IO_Board_v3.1_2024-12-14.zip**（IO板）：使用嘉立创EDA制作，可以通过EDA券进行打样。
@@ -47,23 +100,71 @@
 ## 螺丝孔
 间距见图
 IO板有两个4.1mm的螺丝孔，四个2mm的螺丝孔
+.
+.
+.
+.
+.
+.
 
 ![114e6dcc4adc110a4fa8c1913fc8a64f](https://github.com/user-attachments/assets/6a7bf7bb-9047-48ae-b75d-6054797783c1)
+.
+.
+.
+.
+.
+.
 
   - 暂时没有固定方案，建议使用热熔胶将其固定在读卡器对面。
 
 触摸板有两个4.1mm的螺丝孔，封装宽度小于6mm，可以塞入欧标1515铝型材槽（6.1mm）
+.
+.
+.
+.
+.
+.
 
 ![image](https://github.com/user-attachments/assets/cff2464b-36fc-49d4-a9ba-9459b982fc04)
+.
+.
+.
+.
+.
+.
 
 四个按键板有两个4.1mm的螺丝孔，受限于fpc座，无法将其放入槽内
+.
+.
+.
+.
+.
+.
 
 ![409c412c33483108aa20477443c17d64](https://github.com/user-attachments/assets/2e6d43b2-4a5c-44df-93f2-915c0af7c65e)
+.
+.
+.
+.
+.
+.
 
 
 按键板展示
+.
+.
+.
+.
+.
+.
 
 ![image](https://github.com/user-attachments/assets/516e0fd7-96c2-4611-89fd-5537afec7769)
+.
+.
+.
+.
+.
+.
 
 
 
@@ -86,7 +187,12 @@ IO板有两个4.1mm的螺丝孔，四个2mm的螺丝孔
 
 
 部分材料：
-注意：
+.
+.
+.
+.
+.
+.
 ![image](https://github.com/user-attachments/assets/f9b46f30-7d6a-469e-85a8-549d63314aa9)
 
 
