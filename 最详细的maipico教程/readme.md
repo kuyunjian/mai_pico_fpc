@@ -1,5 +1,7 @@
 # 壹：说在前面
 
+作者懒了暂时不想更新了，随缘更新
+
 分成**基础，常见问题的处理方式，更深入一步地了解工作原理**和**升级**
 
 1. 基础里，能省去所有概念性部分，从0制造一个能玩的maipico，并且告一段落，不过省去概念，做手台会变成做bug，所以有了**常见问题**一节
@@ -7,7 +9,7 @@
 2. 如果你喜欢这种做电子手工创造的乐趣，想了解其工作原理
 3. 升级是用来自己制作外壳，铝型材，做出改变
 4. 与此同时，欢迎接触更多开源项目！example:
-5. 更多互补教程(1.空游石非的bilibili视频 2.源作者whowe的github项目readme 3.imfrea的github项目的readme)
+5. 更多互补教程(1.空游石非的bilibili视频 **2.源作者whowe的github项目readme** 3.imfrea的github项目的readme_cn)
 - [空游石非的bilibili视频](https://www.bilibili.com/video/BV1oS42197P7)
 - github你能找到更多细节补充（互补）值得一提的是。whowechina是maipico项目的源作者
 - [whowe](https://github.com/whowechina/mai_pico)的项目文件往往是最新的
