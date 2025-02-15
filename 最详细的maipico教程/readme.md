@@ -7,7 +7,7 @@
 2. 如果你喜欢这种做电子手工创造的乐趣，想了解其工作原理
 3. 升级是用来自己制作外壳，铝型材，做出改变
 4. 与此同时，欢迎接触更多开源项目！example:
-5. 更多教程：
+5. 更多互补教程(1.空游石非的bilibili视频 2.源作者whowe的github项目readme 3.imfrea的github项目的readme)
 - [空游石非的bilibili视频](https://www.bilibili.com/video/BV1oS42197P7)
 - github你能找到更多细节补充（互补）值得一提的是。whowechina是maipico项目的源作者
 - [whowe](https://github.com/whowechina/mai_pico)的项目文件往往是最新的
