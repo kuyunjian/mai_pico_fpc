@@ -1,11 +1,16 @@
 # 壹：maipico概述
 点击红色按钮可以展开大纲，更方便地阅读
 
-  </br>   <img src="doc/Pasted image 20250304212549.png" width="60%">   </br>
-请事先完整阅读一遍该文档
-有些地方比如显示器，在多处提及
-文章前半部分省略的后半部分可能详细提及
-请事先完整阅读一遍该文档
+<img src="Pasted image 20250304212549.png" style="display: block; margin: 50 auto;" width="60%">
+
+
+请事先完整阅读一遍该文档！
+
+有些地方比如**显示器**，在多处提及
+
+`文章前半部分省略的后半部分可能详细提及`
+
+请事先完整阅读一遍该文档可以节约后期大量时间
 
 ## Q＆A
 
@@ -25,7 +30,7 @@ Q: maipico分成哪几部分?
 	A：电路，ito玻璃，3d打印，外壳，显示器（按照步骤分）
 
 Q：还是不会怎么办
-	A：优先看下面第七条**互补教学**，然后进群里或者评论区提问，提问请①附带前因后果②附带对焦清楚，截图清晰的图片or视频③提问的智慧.pdf
+	A：优先看下面第七条**互补教学**，然后进群里或者评论区提问，提问请①附带前因后果②附带对焦清楚，截图清晰的图片or视频③提问的智慧.pdf④提问的时候不要什么都来问，比如玻璃沾上灰了还能用吗，连锡了是不是要直接丢掉这种问题。。。大部分的小东西可以自己搞明白
 
 ## 概述
 
@@ -44,7 +49,7 @@ Q：还是不会怎么办
 	- github你能找到更多细节补充（互补），[whowechina](https://github.com/whowechina/mai_pico)是maipico项目的源作者，他的的项目文件往往是最新的。
 	- 你能找到另一个分支找到[imfrea](https://github.com/imfrea/mai_pico)的项目，这是一位群友，他的**Readme_cn**教程更为详细，并在production文件夹下附带了他制作并开源的简易外壳文件，简易外壳文件的打样方法在本文的`叁.<3>.7`
 	- [这是我此前在b站做的一点视频，没有太多内容，但看看应该也有帮助](https://www.bilibili.com/video/BV1WiewedEbr/)
-8. 你可能需要下载github下的文件用于制作参考，或者发给商家打样，下载方法请参考[b站视频](https://search.bilibili.com/all?vt=114514&keyword=github%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E6%96%B9%E6%B3%95)  </br>   <img src="doc/Pasted image 20250305205334.png" width="60%">   </br>
+8. 你可能需要下载github下的文件用于制作参考，或者发给商家打样，下载方法请参考[b站视频](https://search.bilibili.com/all?vt=114514&keyword=github%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E6%96%B9%E6%B3%95)<img src="Pasted image 20250305205334.png" style="display: block; margin: 50 auto;" width="60%">
 
 值得一提的是：不用看懂**入门**，只需要看**制作**，一样能做出maipico
 
@@ -65,16 +70,13 @@ Q：还是不会怎么办
 理由：
 1. 焊锡丝为了助焊，会有一定比例的松香，吸入过多对肺部有害
 2. 焊锡丝会发出的烟含有重金属，吸入过多对人体有害
+3. 不过也不必太过恐慌，只要不是怼着焊锡烟大量吸问题就不大
+4. 考虑下面30元的排风扇，相对800元的maipico来说有点多，如果在自己房间里制作，没有排风扇的情况下，务必打开风扇，开门开窗并保持通风
 ```
 
 - 大功率***排***风扇（**建议**）（如果在自己房间而不是工作室）参考图：
-  </br>   <img src="doc/Pasted image 20250304214936.png" width="60%">   </br>
+<img src="Pasted image 20250304214936.png" style="display: block; margin: 50 auto;" width="40%">
 ```
-考虑下面30元的排风扇，相对800元的maipico来说有点多
-
-如果在自己房间里制作，没有排风扇的情况下
-务必打开风扇，开门开窗并保持通风
-
 本应该非常建议自制排风扇，性价比高，大功率应该会花费40元以下
 但有一个问题：市面上单独买到的**方转圆法兰导风桶**都不带万向架的安装孔，所以建议直接买成品
 
@@ -92,7 +94,7 @@ Q：还是不会怎么办
 - n95口罩或者防毒面具（焊锡烟，530清洁剂）
 
 - 丁腈手套（ito玻璃）
-防止指纹，汗液油脂沾到ito玻璃上，同时起一定的保护作用
+防止指纹，汗液油脂沾到ito玻璃上，同时比劳保手套薄，起一定的保护作用
 
 
 
@@ -199,7 +201,7 @@ petg特性所以不用自攻螺丝
 
 
 #### <2.2>.pteg打印说明：
-1. 如果你想用petg打印键帽，请使用群文件我优化后的模型kouer优化button.stl，请向打印的人说明均竖着打印避免层纹，请使用群猫娘给出的**MAI.3mf**文件  </br>   <img src="doc/Pasted image 20250211141640.png" width="60%">   </br>
+1. 如果你想用petg打印键帽，请使用群文件我优化后的模型kouer优化button.stl，请向打印的人说明均竖着打印避免层纹，请使用群猫娘给出的**MAI.3mf**文件<img src="Pasted image 20250211141640.png" style="display: block; margin: 50 auto;" width="60%">
 ```
 优化说明：
 拓大了钢轴孔以适配petg层纹
@@ -219,13 +221,13 @@ https://shop378788148.taobao.com/?spm=2013.1.1000126.2.305e16c4LFf1GW
 5. **电烙铁**建议买带开关的，并且不要买成外热烙铁头
 6. [不要用送的焊锡](https://www.bilibili.com/video/BV1uh411F7KW/ )，**焊锡**有钱就买白猴，性价比买维修佬或者安立信，避雷鹿仙子和其它杂牌焊锡丝（btw，鹿仙子的加热台和针管焊油还可以）
 7. **亚克力**请找`深圳裕隆橡胶（精华消息）两套40元包邮 `或`简川旗舰店（推荐，更便宜）`
-	亚克力每次请自己上传最近在[imfrea分支](https://github.com/imfrea/mai_pico/tree/main/Production/Case)下载到的front.dwg , mid.dwg文件避免旧版本文件打印出来应发争议
-	  </br>   <img src="doc/55cacf6c55df4de31a068579df77a384.png" width="60%">   </br>
+	亚克力每次请自己上传最近在[imfrea分支]([mai_pico/Production at main · imfrea/mai_pico](https://github.com/imfrea/mai_pico/tree/main/Production/Case))下载到的front.dwg , mid.dwg文件避免旧版本文件打印出来应发争议
+	<img src="55cacf6c55df4de31a068579df77a384.png" style="display: block; margin: 50 auto;" width="60%">
 	上方ito玻璃可以直接使用他的文件，不用自己上传文件
 	~~而且ito玻璃属于批量定制，上传了也没用~~
 8. **外壳の铝型材**：github上imfrea的图片没更新，以383.5mm两根252mm一根为准，去嘉立创领取30元fa商城新人券然后凑点螺丝可以仅邮费下单(见本文嘉立创章节）
 9. 显示器有两种方案，①是买瑕疵**成品屏幕**（强烈推荐），②是买**液晶，屏幕排线，驱动板两块，喇叭**，液晶需要带挂耳的。如果没带挂耳，需要用3d转接件，液晶需要用imfrea的背板（有八个1mm过孔），或者胶带固定
-10. 树莓派建议采购绿色的国产microusb接口树莓派，而不是黑色的粉色的树莓派，首先便宜只要10元左右``其次黑色的树莓派本人把个坏了三个，每个买来插上使用的时候，凑近了听，树莓派都有滋滋的电流声音。有一个树莓派有个输出口不知为何坏了，另一个树莓派直接寄了``  </br>   <img src="doc/Pasted image 20250303125959.png" width="60%">   </br>
+10. 树莓派建议采购绿色的国产microusb接口树莓派，而不是黑色的粉色的树莓派，首先便宜只要10元左右``其次黑色的树莓派本人把个坏了三个，每个买来插上使用的时候，凑近了听，树莓派都有滋滋的电流声音。有一个树莓派有个输出口不知为何坏了，另一个树莓派直接寄了``<img src="Pasted image 20250303125959.png" style="display: block; margin: 50 auto;" width="60%">
 11. 区分**micro-usb t型接口**和**typec-c椭圆形接口**数据线
 12. 请给树莓派配套好一点的**usb数据线**，确保能传输数据（可以买的时候问商家是不是仅充电，或者有对应接口的手机尝试是否能用电脑连接上）
 13. 新人有个加热板就差不多得了，更别说热风枪和焊台或者回流焊台了
@@ -290,7 +292,7 @@ pcb
 ##### 1.1. 不焊接
 把数据线削成扁的，就能插进原io板的树莓派
 （一定要戴劳保手套）
-  </br>   <img src="doc/7d564a4ddecc67b8d3fa5e71be783fcf.jpeg" width="60%">   </br>  </br>   <img src="doc/a342d844b630ae3505dccd2290d86b4f.jpeg" width="60%">   </br>
+<img src="7d564a4ddecc67b8d3fa5e71be783fcf.jpeg" style="display: block; margin: 50 auto;" width="60%"><img src="a342d844b630ae3505dccd2290d86b4f.jpeg" style="display: block; margin: 50 auto;" width="60%">
 削过头（见金属部分了）就用绝缘胶带（例如醋酸胶带）缠绕两圈
 ```
 缺点是，成品不能即时插拔数据线（如图）需要一直带着数据线
@@ -298,7 +300,7 @@ pcb
 优点是，不用焊接16pin typec口，以及对应的一个电容C1和两个电阻R20 R21，还有背面的tp2 tp3
 
 ```
-  </br>   <img src="doc/Pasted image 20250228224336.png" width="60%">   </br>
+<img src="Pasted image 20250228224336.png" style="display: block; margin: 50 auto;" width="60%">
 ##### 1.2. 焊接教学
 [参考视频](https://www.bilibili.com/video/av764473491?p=1&start_progress=255353&t=255&unique_k=2333)
 
@@ -316,15 +318,17 @@ pcb
 1. 需要除去锡的地方加一些焊油（如果是qfn，无针脚的密集焊盘芯片（例如mprqr2芯片）不推荐用焊油，如果要用，需要严格控制用量，以免虚焊）
 2. 刀头预热300度（焊接要高温 和 焊油）
 3. 用加热后的刀头擦一下湿海绵除去氧化层
+	如果没有除掉就用点新的焊锡润一下，然后擦湿海绵上
 4. 去碰多余的锡，把多余的锡挂在刀头上
 5. 用刀头擦一下湿海绵除去挂在刀头上多余的锡
-6. 重复3，4步
+6. 3-5步应该是所有焊接过程经常要用到的三步
 ```
 
 **焊油**
 一大堆引脚焊油配合好点的焊锡丝一拖就好
+
 例如树莓派的焊盘，mpr模块的引脚
-  </br>   <img src="doc/bb9d7d0e6503bce2ea8e56fbf268441a.jpg" width="60%">   </br>
+<img src="bb9d7d0e6503bce2ea8e56fbf268441a.jpg" style="display: block; margin: 50 auto;" width="60%">
 
 
 ==短路问题，更方便的斑马纸（mpr到，，的不能太长嘛，之前fpc不如斑马纸来着）削数据线==
@@ -338,7 +342,7 @@ pcb
 
 ```
 如果有条件请使用**3.5mm针高矮排针和矮排母**验证mpr121是否有故障，把矮排母焊接在io pcb上，把矮排针焊接mpr121拓展模块上（也就是不使用购买mpr121模块附赠的长排针）
-  </br>   <img src="doc/Pasted image 20250308124623.png" width="60%">   </br>
+<img src="Pasted image 20250308124623.png" style="display: block; margin: 50 auto;" width="40%">
 
 
 如果故障或者切错了，双排针不是一般人能拆的（
@@ -353,7 +357,7 @@ pcb
 6. 拆双排针，热风枪
 ```
 1. 切割add焊盘与gnd之间的细线以分配地址
-	  </br>   <img src="doc/Pasted image 20250308115815.png" width="60%">   </br>
+	<img src="Pasted image 20250308115815.png" style="display: block; margin: 50 auto;" width="60%">
 	
 	有三个mpr拓展模块需要焊接，**U5（绿色的）不用切**，~~切了也没事，切了没切U5的add都是连着gnd~~
 	只用切U6和U7即可
@@ -363,19 +367,19 @@ pcb
 	
 	这是切割的详细位置：
 	`值得一提的是：下图图片给的丝印有错，应该左边丝印是ADD对应的焊盘才对，他放成IRQ的了。切割位置没错，ADD的地方除了这个丝印，走线是一样的，忽视图片左边的丝印Q即可`
-	  </br>   <img src="doc/Pasted image 20250308120337.png" width="60%">   </br>  </br>   <img src="doc/Pasted image 20250308120714.png" width="60%">   </br>
+	<img src="Pasted image 20250308120337.png" style="display: block; margin: 50 auto;" width="30%"><img src="Pasted image 20250308120714.png" style="display: block; margin: 50 auto;" width="30%">
 	此处群友给出了另一种处理方法
-	  </br>   <img src="doc/Pasted image 20250308120807.png" width="60%">   </br>
+	<img src="Pasted image 20250308120807.png" style="display: block; margin: 50 auto;" width="60%">
 
 2. 验证是否切割好 
 	mpr模块切割之前这两个绿色圈的焊盘应该是短路，电阻为0，万用表一摆到头
 	（绿色的圈为万用表测量，两表笔所接的焊盘）
-	  </br>   <img src="doc/e59b66a33d4d61053d75da8eabe8a857.jpg" width="60%">   </br>
+	<img src="e59b66a33d4d61053d75da8eabe8a857.jpg" style="display: block; margin: 50 auto;" width="60%">
 	
-	切割之后会有小电阻为mpr芯片内部add和gnd的电阻，属于正常现象	  </br>   <img src="doc/4adb202e98a7739e276ad3c1ab0e957a_720 1.jpg" width="60%">   </br>
+	切割之后会有小电阻为mpr芯片内部add和gnd的电阻，属于正常现象	<img src="4adb202e98a7739e276ad3c1ab0e957a_720 1.jpg" style="display: block; margin: 50 auto;" width="60%">
 	
 	请不要往上方切割，红色的地方好像有一条线连接到过孔焊盘，~~切割到该线会使mpr121模块add焊盘无法连接到io板，从而无法分配地址~~，简单来说就是报废了***下图为错误切法！！！***
-	  </br>   <img src="doc/Pasted image 20250308121246.png" width="60%">   </br>
+	<img src="Pasted image 20250308121246.png" style="display: block; margin: 50 auto;" width="30%">
 	
 3. 焊接
 拖焊，焊油加满
@@ -430,28 +434,41 @@ u8是否要焊接
 #### 7. 斑马纸
 区分ito面的方法见[imfear教程](https://github.com/imfrea/mai_pico/blob/main/README_CN.md)
 斑马纸裁六厘米长
-（五厘米不方便而且压好了和六厘米效果一样，除非用分体板3cm以下不然电阻都差不多，也不建议太长，长了不好放）
-（非分体板效果差不多斑马纸是6cm的情况下，sense加到5，带手套可以触碰最右边e3d3的区块）
+`五厘米不方便而且压好了和六厘米效果一样，除非用分体板3cm以下不然电阻都差不多，也不建议太长，长了不好放`
 
-烙铁头的温度区域在热压的中间，先350度预热两分钟，要用烙铁头中间去碰两侧斑马纸（图）
+
+烙铁头的温度区域在热压的中间，先350度预热两分钟
+注意：**斑马纸的两边**要用**烙铁头中间**去碰，以充分加热
+```
+边缘加热不充分对应的现象往往是从正面看，E3，D3区域触摸不灵敏
+
+非分体板效果差不多斑马纸是6cm的情况下，sense加到5，带手套可以触碰最右边e3d3的区块
+```
+<img src="0b86025bd06f3869d38fa4fc9674c14c_720.jpg" style="display: block; margin: 50 auto;" width="60%">
+
 
 ito玻璃下面垫一张白纸即可看清楚蚀刻图案
 
-组装时，玻璃的蚀刻面朝内，而非向着自己
+组装时，玻璃的蚀刻面朝内，而非暴露的向着自己
 
 ##### 7.1 重复压接
 斑马纸重复压接会留残胶
+
 用530清洁剂+卫生纸清理io板和ito玻璃上的残胶
+
 用530喷在IO板上面，用卫生纸擦，擦到以下程度：
+
 最后一遍喷530清洁剂并且擦了之后在卫生纸上没有看见黑色残留。
+
 通常必须喷五六次才能擦干净。
+`群友说有条件的可以把卫生纸换成无纺布`
 
 
 
 ### <1.5>.程序的调试
 （此处需要有一个程序大佬开放触摸测试程序方便小白更好调试）
 
-  </br>   <img src="doc/Pasted image 20250303135920.png" width="60%">   </br>
+<img src="Pasted image 20250303135920.png" style="display: block; margin: 50 auto;" width="60%">
 如果你做到这一步了，不知道这个界面怎么来的，请在群聊中附带图片说  **我做到这一步了，有大佬能私信帮忙一下吗**
 
 涉及程序的步骤请一并在私信中进行，请不要在公开场合分发或者谈论程序，这不需要付费，请不要在海鲜市场进行购买
@@ -482,22 +499,22 @@ sense
 
 进一步确认：如果此时已经焊接好了8pin，和按键，并且连接上数据线与电脑成功通信，出现按下一个按键
 #### 3. 连接
- ###### 1.  可以0缝隙的方法
- 缺点：先放玻璃再放铝型材
-- 第一种：从缝隙引出侧边走线
-  - 缺点：报（buhao）刊（kan） 
-- 第二种：贴着斑马纸走线
-  - 缺点：中间部分斑马纸1/5概率会蹭开，要捋平走线，塞玻璃先塞走线那边，另一端按进去
-- 第三种：上走线
-  - 除了花时间点，没有缺点。
-  - 6号按键引出rgb in，八根控制线就近引出
- ###### 2. 需要切割垫2mm eva海绵胶
-   （个人推荐第五种方案）
-```
- 控制线和rgb in的三根线
- 都可先引出到按键框外部
- 再集中到右侧 < 第四种 > /上部 < 第五种 > 引出
-```
+1.  可以0缝隙的方法
+	 缺点：先放玻璃再放铝型材
+	- 第一种：从缝隙引出侧边走线
+	  - 缺点：报（buhao）刊（kan） 
+	- 第二种：贴着斑马纸走线
+	  - 缺点：中间部分斑马纸1/5概率会蹭开，要捋平走线，塞玻璃先塞走线那边，另一端按进去
+	- 第三种：上走线
+	  - 除了花时间点，没有缺点。
+	  - 6号按键引出rgb in，八根控制线就近引出
+2. 需要切割垫2mm eva海绵胶
+	   （个人推荐第五种方案）
+	```
+	 控制线和rgb in的三根线
+	 都可先引出到按键框外部
+	 再集中到右侧 < 第四种 > /上部 < 第五种 > 引出
+	```
 
 
 ### <2.5>. 新按键板的焊接 button pcb
@@ -559,7 +576,7 @@ pet塑料膜+双面胶or
 	不需要可触摸显示器，延迟很大，而且不满足maimai的触摸要求，触摸通过iTo玻璃实现
 2. 液晶（此处参考群友聊天记录）
 	1.首先推荐购买带挂耳的液晶，可以配合空心铜柱固定在背板上
-	  </br>   <img src="doc/4db7b13c462e89f58ff2e2fe9cf987c8_720.png" width="60%">   </br>
+	<img src="4db7b13c462e89f58ff2e2fe9cf987c8_720.png" style="display: block; margin: 50 auto;" width="60%">
 	
 	参考价格（来自群友）
 	驱动板80屏幕100-150（120hz）
