@@ -2,4 +2,4 @@ Production/PCB/*/
 *-backups
 .editorconfig
 .vscode
-
+*.md text eol=lf
