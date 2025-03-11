@@ -1,6 +1,23 @@
-# 欢迎把你们的制作过程图片发在这个相册，给我做制作教程的素材
-</br>  <img src="photo/99temp/Pasted image 20250309205335.png" width="60%">  </br>
+# 这是什么？
+A: 这是maipico控制器，项目作者不是本文作者，项目作者是[whowechina](https://github.com/whowechina/mai_pico)，在电脑上运行游戏，投屏到maipico显示器上，也就是除了maipico，还需要有一台运行游戏的电脑
+
 有一些图片我事先在maipico群存的，不记得当时是谁发的了，如果有作者请联系我在文章尾部加上您的鸣谢一栏
+
+>**本教程纯公益编写，文章内购买链接无广告费**
+**如果想要表达感谢可以在群里@我（2982537635）简单说一句谢谢，有文字上的感谢已经足够**
+## maipico实物图展示
+</br>  
+<img src="photo/01display/Pasted image 20250311160344.png" width="40%">
+<img src="photo/01display/Pasted image 20250311160457.png" width="40%">
+<img src="photo/01display/Image_860589402693525.jpg" width="40%">
+<img src="photo/01display/Pasted image 20250311152304.png" width="40%">
+<img src="photo/01display/Image_860619871275065.jpg" width="40%">
+<img src="photo/01display/Pasted image 20250311154710.png" width="40%">
+<img src="photo/01display/Pasted image 20250311160542.png" width="40%">
+<img src="photo/01display/Pasted image 20250311160724.png" width="40%">
+<img src="photo/01display/Pasted image 20250311161013.png" width="80%">
+
+</br>
 
 # 壹：maipico概述
 点击红色按钮可以展开大纲，更方便地阅读
@@ -58,7 +75,7 @@ Q：还是不会怎么办
 	- [这是我此前在b站做的一点视频，没有太多内容，但看看应该也有帮助](https://www.bilibili.com/video/BV1WiewedEbr/)
 8. 你可能需要下载github下的文件用于制作参考，或者发给商家打样，下载方法请参考[b站视频](https://search.bilibili.com/all?vt=114514&keyword=github%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E6%96%B9%E6%B3%95)</br>  <img src="photo/00doc/Pasted image 20250305205334.png" width="60%">  </br>
 
-值得一提的是：不用看懂**入门**，只需要看**制作**，一样能做出maipico
+值得一提的是：不用看懂**大部分的原理**，只需要**制作**，一样能做出maipico
 
 
 
@@ -198,13 +215,16 @@ petg因为其成本便宜，可以使用。但受限层纹不做推荐
 不推荐使用尼龙粉末烧结打印button和其它三个3d打印件
 1.贵，而且强度和树脂一样
 2.表面有不明显颗粒感用久了会变脏
-3.如果你买的是尼龙粉末烧结成的键帽，大概会堵粉，需要用镊子戳，然后把戳了的那段，用镊子的另一端敲，粉末就掉出来了 #拓展，请不要大力出奇迹
-
+3.如果你打印的是尼龙粉末材料烧结成的键帽，大概会堵粉，需要用镊子戳。然后反过来，把戳了的那段，用镊子的另一端敲，粉末就掉出来了，请不要大力出奇迹
 
 始终不推荐pla打印材料打印任何3d打印件
 pla又名可降解塑料（可以b站搜索 pla变脆）
 ```
+</br>
+<img src="photo/00doc/Pasted image 20250311150211.png" width="60%">
 
+
+如果你打印的是尼龙粉末材料烧结成的键帽，这样操作</br>
 2. 底座（base）仅推荐petg
 群友价格比淘宝便宜而且熟练
 ```
@@ -248,6 +268,10 @@ https://shop378788148.taobao.com/?spm=2013.1.1000126.2.305e16c4LFf1GW
 13. 新人有个加热板就差不多得了，更别说热风枪和焊台或者回流焊台了
 14. 如果你经常做电子产品，可以去b站搜一下淘宝省钱卡
 ### <4>.嘉立创
+
+对于电子爱好者来说，嘉立创真的是送钱
+pcb，3d，fa商城。。。少说每个人加起来送的成本超过一百元
+
 嘉立创优惠券盘点：
 
 [pcb打样，每个月两次](https://www.bilibili.com/video/BV1c3AceKEMy/)
@@ -268,6 +292,8 @@ pcb
 
 新人3d打印打印可以领一张20元无门槛和一张免邮券，和200-20（找不到了）
 
+手机端或者微信小程序嘉立创下单助手点击主页3d打印模块，可以领一张20元无门槛（不清楚是每个月
+
 免邮券彩色丝印50-30=20+五块钱邮费（找不到了）
 
 
@@ -279,7 +305,9 @@ pcb
 
 ## Ⅱ. 焊接和测试
 ### <0>. 前言
+如图你需要焊接一块io和一串buttonpcb，这是这个项目需要的所有8块pcb（不算树莓派和io通过线连的pn532的话）
 
+</br>  <img src="photo/45han/Pasted image 20250311152011.png" width="60%">  </br>
 ```
 焊接是让焊锡像水一样自然流动的过程
 
@@ -292,14 +320,13 @@ pcb
 
 
  **焊接顺序按照文章排列顺序进行**
-	1. io板
-	（16pintypec是不必须的，另外买usb母座我也没仔细看，故此处不做教学）
 
-#### <0>.1. 去除连锡
+
+#### <0>.1. 去除连锡和氧化层（焊接基本功）
 去除连锡后面在`type-c口的焊接，mpr121qr2芯片的焊接`等地方需要用到
 因为是焊接基本功，所以单独开一部分，后面需要时跳转回来看
 
-***通用除去连锡办法：***
+***通用除去连锡和氧化层办法：***
 ```
 除锡基本用刀头，刀头面积大，挂锡（锡会留在刀头上）
 焊盘，和元件焊接面，也挂锡
@@ -309,9 +336,9 @@ pcb
 1. 需要除去锡的地方加一些焊油（如果是qfn，无针脚的密集焊盘芯片（例如mprqr2芯片）不推荐用焊油，如果要用，需要严格控制用量，以免虚焊）
 2. 刀头预热300度（焊接要高温 和 焊油）
 3. 用加热后的刀头擦一下湿海绵除去氧化层
-	如果没有除掉就用点新的焊锡润一下，然后擦湿海绵上
-4. 去碰多余的锡，把多余的锡挂在刀头上
-5. 用刀头擦一下湿海绵除去挂在刀头上多余的锡
+	如果没有除掉氧化层就用点新的焊锡润一下，然后擦湿海绵上
+4. 去碰多余的锡，把多余的锡挂在刀头上（注意如果是type-c口的话，不要碰到塑料部分，碰引脚即可）
+5. 用刀头擦一下湿海绵除去挂在刀头上多余的锡的同时可以去除氧化层
 6. 3-5步应该是所有焊接过程经常要用到的三步
 ```
 
@@ -395,7 +422,8 @@ mpr121拓展模块核心，是中间的mpr121qr2芯片
 
 如果有条件请购买**3.5mm针高矮排针和矮排母**验证mpr121是否有故障
 >（也就是不使用购买mpr121模块附赠的长排针）
-（矮排针在后续翻转io板固定在外壳上有更多空间）
+（如图，矮排针在后续翻转io板固定在外壳上有更多空间）（下图为制作外壳时玻璃放在中间层，并且使用矮排针的效果）
+</br>  <img src="photo/41mpr/Image_860690859358454.jpg" width="50%">  </br>
 `矮排针在群文件 采购清单.txt 有过链接，可以不用重复购买（注意如下图是7.5mm）`
 
 
@@ -447,12 +475,13 @@ mpr121拓展模块核心，是中间的mpr121qr2芯片
 	</br>  <img src="photo/41mpr/Pasted image 20250308120337.png" width="40%">  </br></br>  <img src="photo/41mpr/Pasted image 20250308120714.png" width="40%">  </br>
 	此处群友给出了另一种处理方法
 	</br>  <img src="photo/41mpr/Pasted image 20250308120807.png" width="40%">  </br>
-	</br>  <img src="photo/41mpr/Pasted image 20250310210122.png" width="40%">  </br>
+	如果温度再高一些，接触时间再久一些，通孔其实也是可以掉的
+	</br>  <img src="photo/41mpr/Pasted image 20250311151225.png" width="80%">  </br>
 
 2. 验证是否切割好 
 	mpr模块切割之前这两个绿色圈的焊盘应该是短路，电阻为0，万用表一摆到头
 	（绿色的圈为万用表测量，两表笔所接的焊盘）
-	（更推荐用万用表戳红色圈的孔，更方便一些）
+	（更推荐用万用表戳红色圈的孔，与绿色焊盘等效，更方便一些）
 	
 	</br>  <img src="photo/41mpr/e59b66a33d4d61053d75da8eabe8a857.jpg" width="40%">  </br>
 	</br>  <img src="photo/41mpr/03c5940104365023b3cb75a21401f6a0.png" width="40%">  </br>
@@ -499,6 +528,7 @@ mpr121拓展模块核心，是中间的mpr121qr2芯片
 	
 	放上一层锡膏
 	（锡膏要放满每一个mpr焊盘，宁可多，不可少。）
+	</br>  <img src="photo/41mpr/Pasted image 20250311154837.png" width="60%">  </br>
 	（多了后面有处理办法；少了要用尖头烙铁＋锡膏补焊，还可能要加一点点焊油，最后还可能会连锡虚焊，回到多了的步骤，所以宁可多不要少）
 	
 	放mpr（注意方向，从丝印来看，mpr的上面是输出端，输出到金手指触摸的焊盘上）
@@ -605,7 +635,7 @@ buttonpcb上V是电源G是地，中间还有一根信号线
 你就能得到三根导线。。。。。。
 ```
 注意和io板上的配对，图三是io板上的线序。方向不能反，都是从buttonpcb的右边输入（主要是控制线不能反）
-</br>  <img src="photo/50button/Pasted image 20250310132241.png" width="37%">  <img src="photo/50button/Pasted image 20250310132555.png" width="30%">   <img src="photo/50button/Pasted image 20250310133552.png" width="30%"> <img src="photo/50button/Pasted image 20250310145809.png" width="30%">  </br>
+</br>  <img src="photo/50button/Pasted image 20250310132241.png" width="37%">  <img src="photo/50button/Pasted image 20250310132555.png" width="30%">   <img src="photo/50button/Pasted image 20250310133552.png" width="30%"> <img src="photo/50button/Pasted image 20250310145809.png" width="30%"><img src="photo/50button/Pasted image 20250311153013.png" width="30%">  </br>
 
 ```
 注意：3v3 gnd（第一根和第三根）搭反了会烧掉灯
@@ -656,8 +686,15 @@ buttonpcb上V是电源G是地，中间还有一根信号线
 #### 3. 把按键环固定在3d打印件上
 
 在此之前请确认每个buttonpcb测试焊接完好（测试方法在1. 单块）
+1. 侧边走线还是上走线
+	1. 侧边走线
+		1. 内走线（不推荐，斑马纸1/9概率会被蹭开，如果线没捋平）
+		</br>  <img src="photo/50button/Pasted image 20250311150608.png" width="60%">  </br>
+	2. 上走线
+		1. 
+2.  玻璃放置中间层还是架在最上面(没写完)
+```
 
-1.  可以0缝隙的方法
 	 缺点：先放玻璃再放铝型材
 	- 第一种：从缝隙引出侧边走线
 	  - 缺点：报（buhao）刊（kan） 
@@ -666,12 +703,12 @@ buttonpcb上V是电源G是地，中间还有一根信号线
 	- 第三种：上走线
 	  - 除了花时间点，没有缺点。
 	  - 6号按键引出rgb in，八根控制线就近引出
-2. 需要切割垫2mm eva海绵胶
-
+3. 需要切割垫2mm eva海绵胶的方法
 	 控制线和rgb in的三根线
 	 都可先引出到按键框外部
 	 再集中到右侧 < 第四种 > /上部 < 第五种 > 引出
 
+```
 ### <2.5>. 新按键板的焊接 button pcb
 #### 1. 12pin 0.5mm间距pfc座
 固定焊盘一端上锡，12pin焊盘上锡
@@ -707,6 +744,7 @@ buttonpcb上V是电源G是地，中间还有一根信号线
 非分体板效果差不多斑马纸是6cm的情况下，sense加到5，带手套可以触碰最右边e3d3的区块
 ```
 </br>  <img src="photo/00doc/0b86025bd06f3869d38fa4fc9674c14c_720.jpg" width="60%">  </br>
+</br>  <img src="photo/00doc/Image_860869024685772.jpg" width="60%">  </br>
 
 
 ito玻璃下面垫一张白纸即可看清楚蚀刻图案
@@ -764,6 +802,10 @@ mpr全称：**接近式电容触摸传感器**
 pet塑料膜+双面胶or
 0.2mm海绵胶
 外壳螺丝图
+屏幕和玻璃之间如果误触可以贴一层pvc海绵胶带（建议1-3mm，实在是这个误触问题可以多贴点）
+</br>  <img src="photo/70back/Image_860611689321834.jpg" width="60%">  </br>
+`显示器边框是金属的会导电，导电的碰到玻璃会触发对应区块，感兴趣可以去看mpr121原理`
+
 ### 背壳的制作
 群文件【推荐】背壳文件里有详细readme和效果图还有教程，此处仅展示透明款的效果，如果需要打样请选择乳白色，透明仅展示
 </br>  <img src="photo/00doc/e87c8bddf7db32b19625b42ca3f23381_720.jpg" width="60%">  </br>
@@ -797,10 +839,104 @@ pet塑料膜+双面胶or
 	2.除了液晶还有液晶驱动板
 	驱动板需要自己量板子上面的孔位，用空心铜柱固定在自己画的背板上
 	再有一种方法就是用胶带固定在背板上
-## Ⅷ.其它配件
+### Ⅷ. 一些电脑常识说明
+Q：如何打开设备管理器
+A：百度
+
+Q：显示器是横过来的怎么办
+A：显示器设置，选定二号（或者maipico使用的拓展显示器，设置为竖屏反转）怎么打开显示器设置百度
+
+Q：游戏怎么启动在拓展显示器
+A：
+	第一种办法：下载窗口化工具（群文件）
+	第二种办法：把拓展显示器设置为主显示器然后启动
+	第三种办法：(空格)-monitor 2(空格)
+## Ⅶ. 其它
 ### Ⅶ.Ⅰ.读卡器
 焊接示意图参考wiring_route
+pn532上的拨码请切换至i2c状态（1上2下）
+随后重新插拔数据线，在控制台输入display看到这一栏为pn532即为连接成功
+</br>  <img src="photo/47other/Pasted image 20250311151448.png" width="40%">  </br>
+</br>  <img src="photo/47other/Pasted image 20250311151620.png" width="40%">  </br>
+### 其它配件
+这里推一个画架放maipico合适而且稳固，96那款
+</br>  <img src="photo/47other/Pasted image 20250311152515.png" width="40%">  </br>
+
 # 肆：入门
+
+以下梗图是我自己做的，所以这些个软件（网页）都是我更新maipico以来一个个下载的，每个软件（网页）都有对应的功能
+
+</br>  <img src="photo/800new/e2ec0cb572a685eefd10296835edb973_720.jpg" width="60%">  </br>
+
+好处是有哪里不符合想象便可以改，哪里觉得能改进便可以改
+
+备注仅为我最近学到的东西
+## 肆.0.杂项
+### ==1. 外壳==cad改外壳，跑料软件（不常用）
+- auto cad 改了front，mid，开源适配的背壳（显示器位置）
+- 跑料软件 cypcut
+### ==2. 3d件==onshape和sw改3d打印角槽，宽体按键
+- SW（solidworks）做了弯角边框，`模拟了大台铝型材`
+```
+首推，0.9*/的公差
+```
+- onshape做了宽体按键以及对应的适配
+```
+英文网站
+功能强大，在线可用，不能导出与sw相同的步骤但能导出sw兼容的.step格式（搭配视频），可以导入sw，但仅能继续建模（）
+```
+- 3dmax对称了一个边框stl
+```
+（这个软件给我的感觉不像，用来工程建模，3dmax适合动画场景的三维建模布料模拟等场景(如图),对于maipico不作推荐
+对于maipioco有效于stl文件需要逆向建模，且仅需要对称等可面片建模的场景）
+ug听说也可以stl建模，但没用过
+```
+- ug没用过，但听说挺强大的
+```
+没用过，但听过，这里给它留个位置
+```
+### ==3. 彩色亚克力==ai彩色亚克力上框（ps做贴纸）
+- adobe illustrator（ai） ＆ autocad ＆ adobe photoshop
+爬虫历史网站素材
+### ==4. pcb== kicad做pcb fpc分体板
+- kicad
+导出gerber→导出钻孔文件
+放入同一个zip压缩包
+
+- jlc easyeda专业版
+```
+改在线模式
+```
+- 改gerber
+   - altium designer`有bug，芋圆mpr拓展阻焊层矩形区域未填充，优点`
+ ---
+```
+需要接触更多的开源项目，了解更多元器件
+```
+### ==5. 程序==devc++改烧录文件uf2
+- picosdk
+- vmware
+- （一个群里说的虚拟机和其它系统的cmake）
+### ==6.铝型材选型==maycad
+
+
+### ==7.成品==
+外壳的打印
+乳白，亚克力
+
+3d打印（3dprint）
+嘉立创三维猴（**白色树脂**和**尼龙粉末烧结**）
+海鲜市场（闲鱼）等地方找同城打印（层纹）
+群友代打（petg 0.1r/g, pla 0.2r/g）(注意密度)
+
+pcb
+嘉立创（每个月打样两次pcb）（可打pfc）
+捷配（第一个月两次，其它月一次，可免费打样打大号pcb），其它平台
+
+耗材（电子耗材，铝型材强度耗材）
+立创商城，
+
+ito用激光打掉蚀刻面
 ## 肆.Ⅰ. pcb：io，mpr
 ### 肆.Ⅰ.Ⅰ. mpr芯片及其扩展模块的讲解
 树莓派通过io板走线与三个mpr芯片相连
@@ -863,12 +999,17 @@ add_custom_command(TARGET ${board} PRE_BUILD
     COMMAND powershell -Command "if (-Not (Test-Path ${CMAKE_CURRENT_SOURCE_DIR}/cli.c)) { New-Item -ItemType File -Path ${CMAKE_CURRENT_SOURCE_DIR}/cli.c } else { (Get-Item ${CMAKE_CURRENT_SOURCE_DIR}/cli.c).LastWriteTime = Get-Date }"
 )
 ```
+
 # 伍：enjoy yourself
 # 鸣谢（排名不分先后）
+
+- 本文作者
+</br>  <img src="photo/90thanks/Pasted image 20250311160037.png" width="30%">  </br>
+
 - io板焊接图片贡献
 </br>  <img src="photo/90thanks/Pasted image 20250309140807.png" width="30%">  </br>
 
-- mpr长排母和背部io方法和图片素材贡献
+- mpr长排母和背部io方法等大量图片素材贡献
 </br>  <img src="photo/90thanks/Pasted image 20250309210144.png" width="30%">  </br>
 
 - 按键pcb焊接图片素材贡献
@@ -876,3 +1017,7 @@ add_custom_command(TARGET ${board} PRE_BUILD
 
 - mpr矮排母素材贡献
 </br>  <img src="photo/90thanks/Pasted image 20250310210633.png" width="30%">  </br>
+
+- 彩虹亚克力上框素材和实物图贡献
+</br>  <img src="photo/90thanks/Pasted image 20250311160852.png" width="30%">  </br>
+
